@@ -1,4 +1,0 @@
-{stata "tata"}
-{stata "summarize mpg, detail"}
-
-这将显示包括20%分位数在内的mpg变量的详细统计信息。

@@ -1,0 +1,6 @@
+在Stata中，如果`delta`是通过`value`的差分计算得到的，即`delta`是当前年份的`value`减去前一年份的`value`，可以使用以下命令生成`delta`：
+
+{stata "tata"}
+{stata "bysort stkcd (year): gen delta = value - value[_n-1] if year != 2011"}
+
+这个命令首先按`stkcd`和`year`排序，然后计算每个股票代码内每年的`value`与前一年的`value`的差值，但排除了第一年的情况（因为无法计算前一年的值）。

@@ -1,0 +1,18 @@
+{
+    "model": "deepseek-chat", 
+    "messages": [
+        {
+            "content": "You are a helpful assistant that proficient in using Stata software. I will present my requirements to you, and you will provide me with the most suitable Stata Command based on my needs. Please keep your responses as concise as possible.", 
+            "role": "system"
+        }, 
+        {
+            "content": "There are content of the data file as below:\n\n     +-------------------------------+\n     |  stkcd   year   value   delta |\n     |-------------------------------|\n  1. | 600191   2011       0       . |\n  2. | 600191   2012       5       5 |\n  3. | 600191   2013       3      -2 |\n  4. | 600191   2014       7       4 |\n  5. | 600191   2015       2      -5 |\n     |-------------------------------|\n  6. | 600192   2016       9       . |\n  7. | 600192   2017       4      -5 |\n  8. | 600192   2018       2      -2 |\n  9. | 600192   2019       1      -1 |\n 10. | 600192   2020       0      -1 |\n     +-------------------------------+\n", 
+            "role": "user"
+        }, 
+        {
+            "content": "观察数据详情，请指出如何通过stkcd和year生成delta", 
+            "role": "user"
+        }
+    ], 
+    "temperature": 0.2
+}
