@@ -1,0 +1,10 @@
+{
+    "model": "deepseek-chat", 
+    "messages": [
+        {
+            "content": "", 
+            "role": "system"
+        }
+    ], 
+    "temperature": 0.2
+}
