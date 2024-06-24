@@ -11,7 +11,7 @@ checking chatgpt consistency and verifying not already installed...
 installing into /Users/cyberbacchus/Library/Application Support/Stata/ado/plus/...
 installation complete.
 ```
-下载release中的chatgpt.ado到输出结果中的路径，替换掉原始文件。
+下载Releases中的chatgpt.ado到输出结果中的路径，替换掉原始文件。
 
 ## 使用
 申请[DeepSeek API](https://platform.deepseek.com)，参考`code/demo.ipynb`及`chatgpt`命令的帮助文件使用。
