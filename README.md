@@ -4,10 +4,15 @@
 之后会考虑加上其他LLM API的支持，然后commit到原命令里。由于我不会写Stata代码，现在暂时先这样。
 
 ## 安装
-可以通过下载`code/deepseek.ado`到本地`adopath`安装，也可以指定新路径使Stata识别命令
-```stata
-adopath + "../code"
+运行`ssc install chatgpt`下载原版命令，标准的输出(下载路径依系统而异)为：
+
+```. ssc install chatgpt
+checking chatgpt consistency and verifying not already installed...
+installing into /Users/cyberbacchus/Library/Application Support/Stata/ado/plus/...
+installation complete.
 ```
+下载release中的chatgpt.ado到输出结果中的路径，替换掉原始文件。
+
 ## 使用
 申请[DeepSeek API](https://platform.deepseek.com)，参考`code/demo.ipynb`及`chatgpt`命令的帮助文件使用。
 
